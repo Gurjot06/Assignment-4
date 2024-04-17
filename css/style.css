@@ -18,7 +18,9 @@ h1, h2 {
     height: 100%;
     filter: blur(10px); /* Adjust the blur intensity as needed */
     z-index: -1; /* Send the blurred background behind other content */
-    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 
